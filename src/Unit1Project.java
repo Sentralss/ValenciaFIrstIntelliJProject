@@ -48,8 +48,5 @@ public class Unit1Project {
         System.out.println(totalperperson);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-
-
-
     }
 }
