@@ -27,25 +27,25 @@ public class Unit1Project {
         //Calculates total tip amount
         double tipamount =  bill*((double) tippercentage/100);
         System.out.println("Total tip amount:");
-        System.out.println(tipamount);
+        System.out.printf("%.2f %n", tipamount);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
         //Calculates the total bill including tip
         double totalbill = bill + tipamount;
         System.out.println("Total bill including tip:");
-        System.out.println(totalbill);
+        System.out.printf("%.2f %n", totalbill);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
         //Calculates tip per person
         double tipperperson = tipamount/numberofpeople;
         System.out.println("Tip per person:");
-        System.out.println(tipperperson);
+        System.out.printf("%.2f %n", tipperperson);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
         //Calculates total per person
         double totalperperson = totalbill / numberofpeople;
         System.out.println("Total per person:");
-        System.out.println(totalperperson);
+        System.out.printf("%.2f %n", totalperperson);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
     }
